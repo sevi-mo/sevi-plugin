@@ -20,12 +20,12 @@ class BaseController
 			'cpt_manager' => 'Activate CPT Manager',
 			'taxonomy_manager' => 'Activate Taxonomy Manager',
 			'media_widget' => 'Activate Media Widget',
-			'slideshow_manager' => 'Activate Slideshow Manager',
+			// 'slideshow_manager' => 'Activate Slideshow Manager (not yet)',
 			'testimonial_manager' => 'Activate Testimonial Manager',
-			'templates_manager' => 'Activate Custom Templates',
-			'login_manager' => 'Activate Ajax Login/Signup',
-			'membership_manager' => 'Activate Membership Manager',
-			'chat_manager' => 'Activate Chat Manager'
+			// 'templates_manager' => 'Activate Custom Templates (not yet)',
+			// 'login_manager' => 'Activate Ajax Login/Signup (not yet)',
+			// 'membership_manager' => 'Activate Membership Manager (not yet)',
+			// 'chat_manager' => 'Activate Chat Manager (not yet)'
 		);
 	}
 	public function activated(string $key)
